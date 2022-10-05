@@ -28,11 +28,10 @@ You can either leave a comment to indicate interest so that others know you are 
 
  ###  Step 3 
 
-You will mostly interact with two of our products. Chispend in order to unlock the utility, allow crypto tokens and NFTs to be spent, integrate your own platform tokens and create your own spending experience.
-
+You will primarily interact with two of our products. ChiSpend, unlocking utility by crypto tokens and NFTs to be spent, seamlessly integrate your platform tokens and create your spending experience
 ![chispend.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664889683397/KtUJf6c7O.png align="left")
 
-and Chiconect, which is a powerful API that allows you to move non-diminishing rewards between banks, giftcards, airtime, momo, and so on.
+and ChiConnect, which is a powerful API that allows you to move non-diminishing rewards between banks, giftcards, airtime, momo, and so on.
 
 
 ![chiconnect.png](https://cdn.hashnode.com/res/hashnode/image/upload/v1664889699509/ROqZF6PEQ.png align="left")
