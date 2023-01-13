@@ -1,4 +1,4 @@
-## What I Do As A Developer When I Get Stuck
+# What I Do As A Developer When I Get Stuck
 
 When I first started learning to code, I was constantly concerned about forgetting syntax or functions, or having an idea but not knowing how to execute it. But then I realized I was putting too much pressure on myself because I couldn't keep everything in my head at the same time. I met a senior Developer and asked him how he does it, because to be a senior Developer you need to be able to wake up from your sleep and debug, and he laughed and said that's a lie... "even senior developers ask questions". He said, "We ask Google and our colleagues," and then he introduced me to a website called [Stackoverflow](https://stackoverflow.com/), where I realized I didn't have to know everything all at once. I can always expand my knowledge when  I get stuck.
 
