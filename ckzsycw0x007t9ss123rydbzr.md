@@ -1,10 +1,10 @@
 # Introduction To Value Types In Solidity
 
-Solidity is an object-oriented, high-level language for creating smart contracts. Smart contracts are small computer programs that are replicated and processed on all computers on the Ethereum network without a central coordinator. There are various data types in solidity, and the value type is one of them. In this blog, we will be looking at some of the value types in solidity.
+Solidity is an object-oriented, high-level language for creating smart contracts. Smart contracts are small computer programs that are replicated and processed on all computers on the Ethereum network without a central coordinator. There are various data types in Solidity, and the value type is one of them. In this blog, we will be looking at some of the value types in solidity.
 
 # What is a Value Type?
 
-Value type is a type that holds the data directly in the memory owned by it. Variables of these types are always passed by value, meaning that they are always copied when assigned to another variable or passed into a function. The following types are value types in solidity:
+A value type is a type that holds the data directly in the memory owned by it. Variables of these types are always passed by value, meaning that they are always copied when assigned to another variable or passed into a function. The following types are value types in solidity:
 
 * Booleans
     
@@ -14,7 +14,7 @@ Value type is a type that holds the data directly in the memory owned by it. Var
     
 * Addresses
     
-* Fixed- size byte arrays(bytes1 to bytes32)
+* Fixed-size byte arrays(bytes1 to bytes32)
     
 * Enums
     
@@ -72,7 +72,7 @@ uint is an alias for uint256
 
 ### Address
 
-The address solidity value type has two similar kinds, namely address and address payable. It is a data type to store a 20-byte value representing the Ethereum address. The main difference between these two types is that an address payable is an address you can send ether to, while a plain address cannot be sent ether. We can implicitly convert from address payable to address, whereas conversions from address to address payable must be explicitly done via payable ( address &gt;).
+The address solidity value type has two similar kinds, namely address and address payable. It is a data type to store a 20-byte value representing the Ethereum address. The main difference between these two types of addresses is that an address payable is an address you can send ether, while a plain address cannot be sent ether. We can implicitly convert from address payable to address, whereas conversions from address to address payable must be explicitly done via payable ( address &gt;).
 
 ```plaintext
 address testAddr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
@@ -81,11 +81,11 @@ address testAddr = 0x5B38Da6a701c568545dCfcB03FcB875f56beddC4;
 
 ### Fixed Point Numbers
 
-Fixed point numbers are similar to float data type but the main difference is that we need to specify the number of bits required for the integer part and fractional part in fixed-point numbers whereas, in float, it is not necessary.
+Fixed point numbers are similar to float data types, but the main difference is that we need to specify the number of bits required for the integer and fractional parts in fixed-point numbers, whereas, in float, it is not necessary.
 
-We use fixed/ufixed keywords to specify fixed-point numbers of various sizes. We need to specify the fixed-point numbers in the following manner – fixedMxN and ufixedMxN. Here M represents the number of bits taken by the type and N represents how many decimal points are available.
+We use fixed/unfixed keywords to specify fixed-point numbers of various sizes. We need to specify the fixed-point numbers in the following manner: fixedM x N and ufixedM x N. Here M represents the number of bits taken by the type and N represents how many decimal points are available.
 
-Solidity does not fully support Fixed Point numbers yet, hence we can declare Fixed Point numbers but we cannot assign them to or from them.
+Solidity does not fully support fixed-point numbers yet, hence, we can declare fixed-point numbers but we cannot assign them to or from them.
 
 The operations available for fixed-point numbers are –
 
@@ -93,7 +93,7 @@ The operations available for fixed-point numbers are –
 
 ### Enums
 
-Enums in Solidity are a way to create user-defined types. Enums are explicitly convertible to integer types, but not implicitly. Enum values are numbered in the order they are defined, starting from 0.They are also part of the ABI( Application binary interface)
+Enums in Solidity is a way to create user-defined types. Enums are explicitly convertible to integer types, but not implicitly. Enum values are numbered in the order they are defined, starting from 0. They are also part of the ABI( Application binary interface)
 
 ```plaintext
 enum UserType {
@@ -105,7 +105,7 @@ enum UserType {
 
 ### Fixed Size Byte
 
-Fixed-size byte arrays contain a sequence of bytes. The length of the array must always be specified in the type declaration. They are declared in the following way bytes1, bytes2, bytes3 all the way up to bytes32. byte is an alias for bytes1. You can use your regular boolean operators, comparison operators, and bitwise operators on this type too. for example,
+Fixed-size byte arrays contain a sequence of bytes. The length of the array must always be specified in the type declaration. They are declared in the following order: bytes 1, bytes 2, bytes 3, all the way up to bytes 32. A byte is an alias for bytes. You can use your regular boolean operators, comparison operators, and bitwise operators on this type too. for example,
 
 ```plaintext
 bytes1 public testBytes = "W"; 
@@ -113,4 +113,4 @@ bytes1 public testBytes = "W";
     bytes32 public testBytes32 = "FGGGSS";
 ```
 
-In this article, I did a short summary on value types in solidity, and as a beginner in web3 I'mlooking forward to writing more articles and sharing my journey. feel free to drop a comment and watch out for my next article on my first solidity smart contract.
+In this article, I did a summary on value types in solidity, and as a beginner, in web3 I'm looking forward to writing more articles and sharing my journey. feel free to drop a comment and watch out for my next article on my first solidity smart contract.
