@@ -1,4 +1,4 @@
-## What made me want to be a developer
+# What made me want to be a developer
 
 Unlike many others, I never wanted to be a developer. 😀, I suddenly found myself coding, and I'm going to tell you the story. So take a seat and unwind because...
 
