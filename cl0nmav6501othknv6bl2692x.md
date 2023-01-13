@@ -1,4 +1,4 @@
-## How Erc-20 Token Works
+# How Erc-20 Token Works
 
 On the Ethereum network, ERC-20 tokens are a collection of 'fungible' digital tokens. Each token in the set is indistinguishable from every other token in the set, which is what fungible means. One US dollar is practically indistinguishable from every other US dollar in this way (at least in the digital realm). Each pair of ERC-20 tokens is distinguished by a ticker symbol such as ABC or XYZ. There may be a set of 1 million ABC tokens and a set of 10 million XYZ tokens, for example. The number of ERC-20 token sets is counted since the barrier to entry is minimal (it's actually simply a question of publishing a reasonably basic 'contract' to the Ethereum network). As a result, the number of sets is in the thousands. As a result, the vast majority of sets are worthless. Some, on the other hand, are worth billions.
 
