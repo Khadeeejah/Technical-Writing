@@ -134,7 +134,7 @@ returns a * (b + 42);
 
 ## Step 5: Structs Types
 
-Structs are custom-defined types that can group several variables, you can learn more about structs in my previous article on
+Structs are custom-defined types that can group several variables, you can learn more about structs in my previous [***article***](https://khadeeejah.hashnode.dev/reference-types-in-solidity)
 
 ```solidity
 // SPDX-License-Identifier: MIT
