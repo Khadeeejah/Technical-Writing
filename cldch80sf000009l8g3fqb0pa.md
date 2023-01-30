@@ -125,11 +125,9 @@ return (string) {
 A pure function, on the other hand, neither modifies nor reads the state. They are self-contained functions that do not require any lookups or changes to the system; they simply modify the input to produce consistent output.
 
 ```solidity
-function f(uint a, uint b)
-   pure
-returns(uint) {
+function f (uint a, uint b) pure returns (uint) {
 returns a * (b + 42);
-}
+ }
 ```
 
 ## Step 5: Structs Types
@@ -155,7 +153,7 @@ contract MarketPlace {
 }
 ```
 
-To summarize, I'd like to provide a complete smart contract example that maintains users' wallet addresses after connecting to a DAAP as a way of authentication or onboarding.
+To summarize, I'd like to provide a complete smart contract example that maintains users' wallet addresses after connecting to a dApp as a way of authentication or onboarding.
 
 ```solidity
 // SPDX-License-Identifier: GPL-3.0
